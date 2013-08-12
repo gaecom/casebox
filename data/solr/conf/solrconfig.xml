@@ -38,6 +38,9 @@
 	<requestHandler name="/update" class="solr.UpdateRequestHandler" />
 	<requestHandler name="/update/json" class="solr.JsonUpdateRequestHandler"/>
 	<requestHandler name="/admin/" class="org.apache.solr.handler.admin.AdminHandlers" />
+
+
+  <!-- <requestHandler name="/analysis/field" class="solr.FieldAnalysisRequestHandler" /> -->
 	
 	<!-- ping/healthcheck -->
 	<requestHandler name="/admin/ping" class="PingRequestHandler">
