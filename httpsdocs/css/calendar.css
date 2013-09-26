@@ -6,13 +6,13 @@
  */
 
 /*******************************************
- * 
+ *
  * Ext Calendar styles
  *
  ******************************************/
 
 /* -----------------------------------------
- * Shared calendar view containers 
+ * Shared calendar view containers
  */
 .x-panel-tbar .ext-cal-toolbar {
     padding: 3px;
@@ -134,7 +134,7 @@
 }
 .ext-cal-dayview .ext-cal-dtitle {
     padding: 8px 1px 2px;
-} 
+}
 .ext-cal-hd-ad-bg-tbl {
     position: absolute;
     left: 0;
@@ -660,8 +660,8 @@ td.ext-cal-dtitle-today div {
     filter:alpha(opacity=50);
 }
 
-/* 
- * Calendar event colors 
+/*
+ * Calendar event colors
  */
 .ext-cal-evr,
 .ext-cal-evi,
@@ -773,9 +773,9 @@ td.ext-cal-dtitle-today div {
 }
 
 /*******************************************
- * 
+ *
  * Calendar navigation picker styles
- * 
+ *
  ******************************************/
 .ext-cal-nav-picker {
     border-style: none none solid;
@@ -816,7 +816,7 @@ td.ext-cal-dtitle-today div {
 }
 
 /*******************************************
- * 
+ *
  * Calendar form styles
  *
  ******************************************/
@@ -844,7 +844,7 @@ td.ext-cal-dtitle-today div {
 }
 
 /*******************************************
- * 
+ *
  * DateRangeField styles
  *
  ******************************************/
@@ -870,13 +870,35 @@ td.ext-cal-dtitle-today div {
 /*
 .cal-cat
 .cal-cat-{iconCls}
-.cal-status-{status} 
+.cal-status-{status}
 example .cal-cat-taskBlue
 */
 
 
-.cal-cat-task-blue {background-color: blue !important; background-position: 5px 50%}
-.cal-cat-task-gray {background-color: gray !important; background-position: 5px 50%}
-.cal-cat-task-purple {background-color: #800080 !important; background-position: 5px 50%}
+.cal-cat-task-blue {color: #222; background-color: #9DB7E8 !important; background-position: 5px 50%}
+.cal-cat-task-gray {color: #222; background-color: #BFBFBF !important; background-position: 5px 50%}
+.cal-cat-task-green {color: #222; background-color: #78D168 !important; background-position: 5px 50%}
+.cal-cat-task-olive {color: #222; background-color: #C6D2B0 !important; background-position: 5px 50%}
+.cal-cat-task-orange {color: #222; background-color: #F9BA89 !important; background-position: 5px 50%}
+.cal-cat-task-peach {color: #222; background-color: #F7DD8F !important; background-position: 5px 50%}
+.cal-cat-task-purple {color: #222; background-color: #B5A1E2 !important; background-position: 5px 50%}
+.cal-cat-task-red {color: #222; background-color: #E7A1A2 !important; background-position: 5px 50%}
+.cal-cat-task-steel {color: #222; background-color: #DAD9DC !important; background-position: 5px 50%}
+.cal-cat-task-teal {color: #222; background-color: #9FDCC9 !important; background-position: 5px 50%}
+.cal-cat-task-yellow {color: #222; background-color: #FCFA90 !important; background-position: 5px 50%}
+
+.cal-cat-task-darkblue {color: #FFF; background-color: #2858A5 !important; background-position: 5px 50%}
+.cal-cat-task-darkgray {color: #FFF; background-color: #6F6F6F !important; background-position: 5px 50%}
+.cal-cat-task-darkgreen {color: #FFF; background-color: #368F2B !important; background-position: 5px 50%}
+.cal-cat-task-darkmaroon {color: #FFF; background-color: #93446B !important; background-position: 5px 50%}
+.cal-cat-task-darkolive {color: #FFF; background-color: #778B45 !important; background-position: 5px 50%}
+.cal-cat-task-darkorange {color: #FFF; background-color: #E2620D !important; background-position: 5px 50%}
+.cal-cat-task-darkpeach {color: #FFF; background-color: #C79930 !important; background-position: 5px 50%}
+.cal-cat-task-darkpurple {color: #FFF; background-color: #5C3FA3 !important; background-position: 5px 50%}
+.cal-cat-task-darkred {color: #FFF; background-color: #C11A25 !important; background-position: 5px 50%}
+.cal-cat-task-darksteel {color: #FFF; background-color: #6B7994 !important; background-position: 5px 50%}
+.cal-cat-task-darkteal {color: #FFF; background-color: #329B7A !important; background-position: 5px 50%}
+.cal-cat-task-darkyellow {color: #FFF; background-color: #B9B300 !important; background-position: 5px 50%}
+
 
 /* .cal-status-completed {} */

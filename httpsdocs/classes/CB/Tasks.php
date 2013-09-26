@@ -124,6 +124,11 @@ class Tasks
         }
         $p['type'] = 0;//intval($p['type']);
 
+        // oburlaca: quick fix. responsible_party column will be removed in favor of custom fields for task template
+        if (! @$p['responsible_party_id']) {
+            $p['responsible_party_id'] = 1; // some dummy value
+        }
+
         $log_action_type = 25; //suppose that only notifications are changed
 
         $removed_responsible_users = array();
