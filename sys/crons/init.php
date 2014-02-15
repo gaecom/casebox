@@ -34,10 +34,12 @@ $site_path = realpath(
 ).DIRECTORY_SEPARATOR;
 
 include $site_path.DIRECTORY_SEPARATOR.'config.php';
-
+//echo LIB_DIR.'Util.php';
 require_once LIB_DIR.'Util.php';
 
 require_once(DOC_ROOT.'language.php');
+
+require_once \CB\CONFIG\SOLR_CLIENT;
 //L\initTranslations(); // would be called from inside crons that need translations
 
 //--------------------------------------------------- functions

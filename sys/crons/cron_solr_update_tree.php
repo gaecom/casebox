@@ -1,7 +1,13 @@
 <?php
 namespace CB;
 
+
+  error_reporting(E_ALL | E_STRICT);
+  ini_set("display_errors", 1);
+
 require_once 'init.php';
+
+//echo 'TEST'.PHP_EOL;
 
 $cron_id = 'solr_update_tree';
 $execution_timeout = 60; //default is 60 seconds
@@ -15,6 +21,8 @@ if (!$cd['success']) {
 $last_action_sql = 'UPDATE crons
 SET last_action = CURRENT_TIMESTAMP
 WHERE cron_id = $1';
+
+
 
 $solr = new Solr\Client;
 
