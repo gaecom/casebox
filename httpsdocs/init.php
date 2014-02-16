@@ -11,7 +11,9 @@ namespace CB;
 require_once dirname(__FILE__).'/config.php';
 require_once 'lib/Util.php';
 require_once 'lib/DB.php';
-require_once \CB\CONFIG\SOLR_CLIENT;
+
+if(!in_array('Apache_Solr_Exception',get_declared_classes()))
+    require_once \CB\CONFIG\SOLR_CLIENT;
 
 // connect to DB
 DB\connect();
