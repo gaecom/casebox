@@ -123,6 +123,12 @@ CB.FacetList = Ext.extend( CB.Facet, {
         }
         this.serverValues = values;
 
+        //console.log(serverData);
+        //console.log("Cached names: ");
+        if (! this.cachedNames) {
+            this.cachedNames = {};
+        };
+
         Ext.iterate(
             serverData
             ,function(k, v){

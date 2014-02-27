@@ -130,6 +130,18 @@ CB.browser.view.Charts = Ext.extend(CB.browser.view.Interface,{
             data: []
         });
 
+
+        // Ext.define('Ext.chart.theme.ColumnTheme', {
+        //         extend: 'Ext.chart.theme.Base',
+        //         constructor: function(config) {
+        //             this.callParent([Ext.apply({
+
+        //                 colors: ['blue']
+
+        //             }, config)]);
+        //         }
+        //     });
+
         this.chartConfigs = {
             'linechart': {
                 xtype: 'linechart'
@@ -145,6 +157,11 @@ CB.browser.view.Charts = Ext.extend(CB.browser.view.Interface,{
                 xtype: 'barchart'
                 ,store: this.chartDataStore
                 ,yField: 'name'
+                // series:[{
+                //     style: {
+                //         colors: [0xbcb8af, 0xe2dedb, 0xbcb8af]
+                //     }
+                // }],
                 ,xAxis: new Ext.chart.NumericAxis({
                     stackingEnabled: true
                 })
